@@ -1,0 +1,13 @@
+{
+  "name": "Don't know why.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Not so important.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dont_know_why.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

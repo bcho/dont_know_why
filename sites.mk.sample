@@ -1,0 +1,3 @@
+# List of enabled sites:
+SITES := 	$(SITES_DIR)/twitter.com/*.js \
+    		$(SITES_DIR)/digger.com/*.js
